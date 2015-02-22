@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<settings>
+  <portlet position="left" title="Open2ch" ref="chrome://jaane/content/portlet/boardlist.xul#http://awabi.open2ch.net/bbsmenu.html" />
+  <layout type="horizontal"/>
+  <layout position="left" class="boardlist" type="tabbox" width="150px"/>
+  <layout position="right" type="vertical"/>
+  <layout position="right/top" class="board" type="tabbox"/>
+  <layout position="right/bottom" class="thread" type="tabbox"/>
+</settings>

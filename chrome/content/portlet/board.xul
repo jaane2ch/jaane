@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet href="chrome://global/skin/" type="text/css" ?>
+<?xml-stylesheet href="style.css" type="text/css" ?>
+<page
+  xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+  xmlns:html="http://www.w3.org/1999/xhtml"
+  id="board">
+    <script language="javascript" type="application/x-javascript" src="../zepto.min.js"/>
+    <script language="javascript" type="application/x-javascript" src="board.js"/>
+</page>

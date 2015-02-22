@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet href="chrome://global/skin/" type="text/css" ?>
+<?xml-stylesheet href="main.css" type="text/css" ?>
+<window
+  xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+  xmlns:html="http://www.w3/org/1999/xhtml"
+  id="main"
+  windowtype="jaane"
+  title="Jaane"
+  persist="width height screenX screenY sizemode"
+  frex="1"
+  orient="vertical">
+  <script language="javascript" type="application/x-javascript" src="zepto.min.js"/>
+  <script language="javascript" type="application/x-javascript" src="main.js"/>
+  <toolbar>
+    <toolbaritem flex="1">
+      <caption label="URL"/>
+      <textbox id="url-bar" flex="1"/>
+    </toolbaritem>
+  </toolbar>
+  <box id="portal" flex="1"/>
+
+</window>

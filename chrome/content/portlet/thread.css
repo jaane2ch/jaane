@@ -1,0 +1,81 @@
+
+:root {
+  position: absolute;
+  background: #efefef;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+* {
+  font-family: "ＭS Pゴシック";
+  font-size: 12pt;
+}
+
+.res {
+  padding-bottom: 1em;
+}
+
+.name {
+  font-weight: bold;
+  color: #080;
+}
+
+a {
+  color: #00F;
+  -moz-user-focus: ignore;
+  outline: none;
+  cursor: pointer;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+body {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+#head {
+  border-bottom: 1px solid #888;
+  display: flex;
+  flex-direction: row;
+}
+
+#head > .title {
+  flex: 1;
+}
+
+#wrapper {
+  flex: 1;
+  padding: 1em;
+  overflow: auto;
+}
+
+#wrapper > .res {
+  margin-left: -1em;
+}
+
+#wrapper > .res > .number {
+  width: 2em;
+  display: inline-block;
+  text-align: right
+}
+
+#wrapper > .res > .body {
+  margin-left: 2em;
+}
+
+#foot {
+  display: flex;
+  flex-direction: row-reverse;
+}
